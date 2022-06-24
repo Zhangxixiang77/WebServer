@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Succeed</title>
+
+    <style>
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #FFF;
+        }
+
+        a {
+            width: 1200px;
+            height: 200px;
+            font-size: 80px;
+            margin: auto;
+            line-height: 100px;
+            text-decoration: none;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            border: solid 1px #151414;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            text-transform: uppercase;
+            color: #666;
+            transition: all 500ms;
+            -webkit-transition: all 500ms;
+            -moz-transition: all 500ms;
+            z-index: 1;
+        }
+
+        a:after,
+        a:before {
+            display: block;
+            background: #94d5d5;
+            width: 0;
+            height: 100px;
+            content: "";
+            position: absolute;
+            -webkit-transition: all 500ms;
+            -moz-transition: all 500ms;
+            -ms-transition: all 500ms;
+            -o-transition: all 500ms;
+            transition: all 500ms;
+            z-index: -1;
+        }
+
+        a:after {
+            bottom: 0px;
+            left: 0px;
+
+        }
+
+        a:before {
+            top: 0px;
+            right: 0px;
+        }
+
+        a:hover:after,
+        a:hover:before{
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+<a target="_blank">10205501427  <br/>张熙翔</a>
+</body>
+
+</html>
